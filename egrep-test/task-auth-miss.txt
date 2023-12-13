@@ -1,0 +1,5 @@
+Nov  7 20:55:01 scc-it120 CRON[153367]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  7 20:55:01 scc-it120 CRON[153367]: pam_unix(cron:session): session closed for user root
+Nov  5 00:00:19 scc-it120 sshd[107960]: fatal: Timeout before authentication for 218.92.0.27 port 21964
+Nov  7 21:08:16 scc-it120 systemd-logind[577]: New session
+Nov  7 21:08:16 scc-it120 systemd-logind[577]: New session of user kit.

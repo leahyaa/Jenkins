@@ -1,0 +1,26 @@
+{
+    "git": {
+        "regex": "^(\\+ |- )",
+        "should-match": "task-git-match.txt",
+        "should-not-match": "task-git-miss.txt",
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-git.sh"
+    },
+    "plus-minus": {
+        "regex": "^commit .*\\W(tag|ref):",
+        "should-match": "task-plus-match.txt",
+        "should-not-match": "task-plus-miss.txt",
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-plus-minus.sh"
+    },
+    "auth": {
+        "regex": "New session [0-9]+ of user",
+        "should-match": "task-auth-match.txt",
+        "should-not-match": "task-auth-miss.txt",
+        "test-include": null,
+        "test-exclude": null,
+        "test-combined": "test-auth.sh"
+    }
+}
